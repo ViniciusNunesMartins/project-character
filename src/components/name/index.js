@@ -2,7 +2,7 @@ import React from "react";
 import { Card, Form } from "react-bootstrap";
 import "./style.css";
 
-export default () => {
+export default function Name() {
   return (
     <Card>
       <Card.Body>

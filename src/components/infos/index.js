@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, Form, Row, Col } from "react-bootstrap";
 
-export default () => {
+export default function Infos() {
   return (
     <Card>
       <Card.Body>
@@ -10,7 +10,6 @@ export default () => {
             <Form.Group as={Col} controlId="class-name">
               <Form.Control size="sm" type="text" placeholder="Class" />
             </Form.Group>
-
             <Form.Group as={Col} controlId="level-class">
               <Form.Control size="sm" type="text" placeholder="Level" />
             </Form.Group>
