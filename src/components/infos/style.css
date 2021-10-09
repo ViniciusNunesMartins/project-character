@@ -1,0 +1,15 @@
+#infos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+
+#infos > input {
+  width: 100%;
+}
+
+#mixed_inputs {
+  display: flex;
+  flex-direction: row;
+}
